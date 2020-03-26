@@ -1,0 +1,39 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="matter.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDh8TyxiGy0hbid91cIP-0HnIcpAjKNocU",
+    authDomain: "paint2-feec6.firebaseapp.com",
+    databaseURL: "https://paint2-feec6.firebaseio.com",
+    projectId: "paint2-feec6",
+    storageBucket: "paint2-feec6.appspot.com",
+    messagingSenderId: "880802781526",
+    appId: "1:880802781526:web:ac931734fac7285c1e5ef7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  </head>
+  <body>
+    <div id = "canvascontainer">
+    <script src="sketch.js"></script>
+    </div>
+    <p>
+      <button id ="clearButton">Click me</button>
+    </p>
+
+</body></html>
